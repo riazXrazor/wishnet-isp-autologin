@@ -1,0 +1,18 @@
+{
+  "name": "wishnet-isp-autologin",
+  "version": "1.0.0",
+  "description": "Auto loggins Wishnet ISP when it logout after 24 hours",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-warnings ./index.js"
+  },
+  "keywords": [],
+  "author": "Riaz Laskar <riazcool77@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "pino": "^8.6.0",
+    "pino-pretty": "^9.1.0",
+    "puppeteer": "^18.0.5"
+  }
+}
