@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node --no-warnings ./index.js",
-    "build": "pkg --targets win index.js --output wishnet-autologin.exe"
+    "build": "pkg --targets linux,macos,win index.js --output wishnet-autologin"
   },
   "keywords": [],
   "author": "Riaz Laskar <riazcool77@gmail.com>",
