@@ -3,7 +3,7 @@ const pino = require('pino')
 const pretty = require('pino-pretty')
 const yargs = require('yargs/yargs')
 const { hideBin } = require('yargs/helpers')
-process.env.TZ = 'Asia/Kolkata';
+
 const logger = pino(pretty({
     ignore: 'pid,hostname,appname',
     translateTime: 'SYS:ddd mmm dd yyyy hh:MM:ss TT',
